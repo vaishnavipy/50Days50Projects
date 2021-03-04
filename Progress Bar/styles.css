@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F7FB;
+    color:#999999;
+}
+
+.progress-bar{
+  
+   text-align: center;
+}
+.num-flex{
+    display: flex;
+    margin: 1em;
+}
+.num{
+    border-radius: 50%;
+    border: 0.3em solid #E0E0E0;
+    background-color: white;
+    padding: 0.3em 0.6em;
+    margin:0 1em;
+    transition: border 0.5s ease ;
+}
+.btn{
+    margin: 1em;
+}
+button{
+    margin: 1em;
+    background-color: #3498DB;
+    color:white;
+    padding: 0.5em 1em;
+    border:none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+button:disabled{
+    background-color: #E0E0E0;
+}
+hr{
+    margin: 0;
+    transform: rotate(90deg); 
+    border : 3px  solid #E0E0E0;
+  transition: border 0.5s ease ;
+}
+
+.active-line{
+    border : 3px  solid #3498DB;
+}
+
+.active-num{
+    border: 0.3em solid #3498DB;
+}
