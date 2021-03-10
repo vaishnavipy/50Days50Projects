@@ -1,0 +1,16 @@
+body{
+    background-color: #A164DF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    background: rgba(0,0,0,0.5) ;
+    color: white;
+    border-radius: 20px;
+    margin: 1em;
+    padding: 1em;
+    font-size: 1.2rem;
+  
+    cursor: pointer;
+}
