@@ -1,0 +1,29 @@
+body{
+    background-color: #686EE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joke-container{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+width: 80%;
+max-width: 700px;
+padding: 1em;
+}
+button{
+    background-color: #9F68E0;
+    box-shadow: 2px 2px 5px gray;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 1em;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#joke{
+    margin: 1.5em;
+    font-size: 2rem;
+}
