@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+   display: flex;
+}
+
+.divs{
+  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 50%;
+  
+   transition: width 1s;
+}
+
+.extra-width{
+   width: 100%;
+}
+
+
+img{
+    height: 100%;
+  width: 100%;
+   
+    object-fit:contain ;
+}
+h1,button{
+   
+    position: absolute;
+    z-index: 2;
+}
+button{
+    top:58%;
+    background-color: transparent;
+    border:2px solid white;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    padding: 1em 2em;
+
+}
+button:hover{
+    background-color: green;
+    border: none;
+}
+h1{
+  
+    font-size: 5vw;
+}
+.blue-overlay::after{
+    position: absolute;
+    content: "";
+    z-index: 1;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background:rgba(118,118,229,0.5);
+}
+.black-overlay::after{
+    position: absolute;
+    content: "";
+    z-index: 1;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background:rgba(0,0,0,0.5);
+}
